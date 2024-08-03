@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon" />
+    <title>IMC - calcular</title>
+  </head>
+  <body>
+    <header>
+      <h1>Calculadora de IMC</h1>
+    </header>
+    <section>
+      <h3>Coloque suas medições</h3>
+      <div id="texto">
+        <p>Coloque a sua altura</p>
+        <input type="number" name="altura" id="altura" />
+        <p>Coloque o seu peso</p>
+        <input type="number" name="peso" id="peso" />
+      </div>
+      <span>
+        <h3>IMC:</h3>
+        <p id="IMC"></p>
+        <p id="classi"></p>
+      </span>
+    </section>
+    <footer>
+      <div id="botoes">
+        <button class="limpar" onclick="limpar()">continuar</button>
+        <button class="calcular" onclick="calcular()">Calcular</button>
+      </div>
+      <p id="copy">&copf; Wendrio</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
